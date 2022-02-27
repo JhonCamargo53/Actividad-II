@@ -1,0 +1,204 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+h1{
+    font-size: 60px;
+   text-shadow: 3px 3px 2px gray;
+    color: black;
+}
+
+h3,h2{
+ color: #292323;
+ }
+
+.inicio{
+    display: flex;
+    justify-content:center
+}
+
+.logo{
+    height: 100px;
+    width:  100px;
+   margin-bottom: 10px;
+   margin-right: 10px;
+
+}
+body{
+    background-color:  #f7f7f7; 
+}
+
+header,.main,footer{
+    background:#f7f7f7;
+    width: 75%;
+    max-width: 80%;
+    margin: 20px auto;
+}
+
+footer p {
+   height: 100px;
+   height: 10%;
+   display: flex;    
+   text-decoration: underline;  
+   text-shadow: #292323;
+   color: white;
+   font-size: 20px;
+   
+}
+
+footer div{
+
+background: rgb(58, 54, 54);
+    padding:10px;
+    display: flex;
+    align-items: center;
+    justify-content:center  
+}
+
+.unilogo{
+    height: 80px;
+    padding: 10px;
+}
+
+header nav{
+    background: white;
+    overflow: hidden;
+}
+
+header nav ul{
+    list-style: none;
+}
+
+
+header nav ul li{
+    float: right;
+}
+
+header nav ul li a{
+    padding: 10px 20px;
+    display: block;
+    color: black;
+    text-decoration: none;
+}
+
+header nav ul li a:hover{
+    background: #ccc;
+    color: black;
+    font-weight: bold;
+}
+
+.main .informacion{
+    background: white; 
+    margin-left: 1.5%;
+    width: 68.5%;
+    float: right;
+    
+}
+.main .informacion article{
+    padding: 20px;
+}
+
+.main .imagen{
+    width: 30%;
+    height: 300px;
+}
+
+table{
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    align-items: center;
+    float: left;
+    background: whitesmoke;
+    margin-right: 1.5%;
+    margin-bottom: 1.5%;
+    }
+
+table td{
+ border: 1px solid black;
+ padding: 10px;
+ text-align: center;
+}
+
+.datos{
+       display: flex;
+}
+
+form{
+    width: 25%;
+    border: 1px solid;
+    margin: 20px;
+    padding: 20px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    width: 100%;
+}
+
+input{
+    margin-bottom:20px;
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+aside{
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+}
+
+hr {
+    height: 10px;
+    background: rgb(58, 54, 54);
+    margin-top: 10px;
+  }
+
+  .infoSeparador{
+      margin-bottom: 10px;
+  }
+  
+ .info p,h3{
+     padding: 10px;
+     width: 95%;
+ }
+
+ .imagen1{
+     height: 40%;
+     width: 100%;
+    }
+    .evento .rad,.evento .check{
+       
+        top: 0;
+        left: 0;
+        height: 25px;
+        width: 25px;
+        background-color: #eee;
+        cursor: pointer;
+    }
+    
+    .radiob{
+       position: relative;
+       width: 80%;
+    }
+
+    .checkb{
+        padding: 4px;
+     }
+
+     .op,.boton{
+       
+        width: 100%;
+        cursor: pointer;
+        padding: 7px 10px;
+        height: 42px;
+        outline: 0; 
+        margin-top: 4px;
+        margin-bottom: 4px;
+        border-radius: 0;
+        background: #f0f0f0;
+        font-size: 1em;
+}

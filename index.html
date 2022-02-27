@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+    <header>
+       <div class="inicio">
+            <img src="img\img1.png" class="logo" width="100" alt="Eventos">
+            <h1>Organización de eventos</h1>
+        </div>
+        <nav>
+            <ul class="menu">
+                <li> <a href="https://www.google.com/">Contacto</a></li>
+                <li> <a href="https://www.google.com/">Portafolio</a></li>
+                <li> <a href="https://www.google.com/">Nosotros</a></li>
+                <li> <a href="https://www.google.com/">Inicio</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <section class="main">
+        <section class="informacion">
+            <article>
+                <h2>Eventos</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum, commodi! Error alias ullam illum ad
+                    mollitia incidunt ea assumenda quibusdam reiciendis, quaerat tenetur! Laudantium repellat deserunt,
+                    expedita asperiores nulla saepe repellendus ea obcaecati id, aut excepturi porro temporibus quasi
+                    esse reiciendis accusamus? Saepe cumque iusto reprehenderit enim accusantium corporis, laboriosam
+                    expedita dicta nemo voluptatibus, voluptas aliquid blanditiis culpa explicabo esse in odit vero sint
+                    praesentium assumenda! Aspernatur facilis alias illum ad labore cum magni, temporibus blanditiis rem
+                    sint, aperiam nobis nihil veritatis nam repellat. Similique molestias, nulla rem eligendi culpa
+                    voluptas? Ratione tempore cumque architecto aliquid, fugit sed provident aspernatur?</p><br>
+
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum, commodi! Error alias ullam illum ad
+                    mollitia incidunt ea assumenda quibusdam reiciendis, quaerat tenetur! Laudantium repellat deserunt,
+                    expedita asperiores nulla saepe repellendus ea obcaecati id, aut excepturi porro temporibus quasi
+                    esse reiciendis accusamus? Saepe cumque iusto reprehenderit enim accusantium corporis, laboriosam
+                    expedita dicta nemo voluptatibus, voluptas aliquid blanditiis culpa explicabo esse in odit vero sint
+                    praesentium assumenda! Aspernatur facilis alias illum ad labore cum magni, temporibus blanditiis rem
+                    sint, aperiam nobis nihil veritatis nam repellat. Similique molestias, nulla rem eligendi culpa
+                    voluptas? Ratione tempore cumque architecto aliquid, fugit sed provident aspernatur?</p>
+            </article>
+
+        </section>
+
+        <img src="img\img3.jpg" class="imagen" width=28% alt="Eventos">
+        <hr>
+
+        <section class="datos">
+            <form class="cliente">
+                <h3>Información personal</h3>
+                <hr class="infoSeparador">
+
+                <label> Nombre: </label>
+                <input type="text" name="nombre" placeholder="Escriba su nombre"><br>
+                <label> Apellido: </label>
+                <input type="text" name="apellido" placeholder="Escriba su apellido"><br>
+                <label> Identificación: </label>
+                <input type="text" name="identificacion" placeholder="Escriba su identificación"><br>
+                <label> Teléfono: </label>
+                <input type="text" name="teléfono" placeholder="Escriba su teléfono"><br>
+                <label> Correo Electronico: </label>
+                <input type="text" name="correo" placeholder="Escriba su correo"><br>
+
+            </form>
+
+
+            <section class="info">
+
+                <h3>Realice su reservación</h3>
+                <p>Complete todos los campos para realizar la reservación del evento y nos pondremos en contacto con
+                    usted para arreglar detalles.</p>
+                <aside>
+                    <h3>Paquetes de eventos</h3>
+                    <table border="3">
+                        <tr>
+                            <th>Tipo de evento</th>
+                            <th>Mínimo de Personas</th>
+                            <th>Máximo de Personas</th>
+                        <tr>
+                        <tr>
+                            <th>Matrimonio</th>
+                            <td>60</td>
+                            <td>320</td>
+                        </tr>
+                        <tr>
+                            <th>Cumpleaños</th>
+                            <td>50</td>
+                            <td>120
+                        </tr>
+                        <tr>
+                            <th>Graduación</th>
+                            <td>60</td>
+                            <td>185</td>
+                        </tr>
+                        <tr>
+                            <th>Aniversario</th>
+                            <td>55</td>
+                            <td>260</td>
+                        </tr>
+                    </table>
+
+
+                </aside>
+                <img src="img\img2.jpg" class="imagen1" width=28% alt="Eventos">
+
+            </section>
+
+
+
+
+            <form class="evento">
+
+                <h3>Información del evento</h3>
+                <hr class="infoSeparador">
+                <label> Tipo de evento: </label>
+
+                <div class="radiob">
+                    <input type="radio" class="rad" name="evento" value="matrimonio">Matrimonio
+                    <input type="radio" class="rad" name="evento" value="cumpleaños">Cumpleaños
+                    <input type="radio" class="rad" name="evento" value="graduación">Graduación
+                    <input type="radio" class="rad" name="evento" value="aniversario">Aniversario
+                </div>
+
+
+                <label>Cantidad de personas: </label>
+                <input type="number" name="evento" value="cantidad" min="50" max="320">
+                <label> Fecha de evento: </label>
+                <input type="date" name="fechaEvento">
+                <label> Hora: </label>
+                <input type="time" value="hora">
+                <label> Forma de pago: </label>
+
+                <div class="checkb">
+                    <input type="checkbox" class="check" name="pago" value="efectivo"> Efectivo
+                    <input type="checkbox" class="check" name="pago" value="tarjeta"> Tarjeta
+                </div>
+
+                <label> Reunión de planeación: </label>
+                <select class="op" name="opcion">
+                    <option>Presencial</option>
+                    <option>Virtual</option>
+                    <option>Por decidir</option>
+                </select>
+
+                <input type="submit" class="boton" name="enviar" value="Enviar información">
+            </form>
+
+        </section>
+    </section>
+
+
+    <footer>
+        <div>
+            <p> Jhon Camargo - Diseño Web I - 2022-1</p>
+
+            <a href="https://www.cuc.edu.co/">
+                <img src="img\img4.jpg" class="unilogo" alt="Eventos">
+            </a>
+        </div>
+    </footer>
+</body>
+
+</html>
